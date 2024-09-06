@@ -10,7 +10,7 @@ from github import Github, GithubException
 token = ""
 nom_repo = "patrouil/bia_boond_kpi"
 chemin_initiale = r"C:\Users\RaphaelMALET\OneDrive - BIA GROUPE\Documents\test envoie vers git"
-chemin_depot = input("chemin dans le dépot pour vous fichiers (exemple : src/bond/), ne rien mettre pour la racine : ")
+chemin_depot = input("chemin dans le dépot pour vos fichiers (exemple : src/bond/), ne rien mettre pour la racine : ")
 
 
 # Fonction pour publier un fichier sur le dépôt
